@@ -8,6 +8,8 @@
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
 
+// Unkn76 - Creating some Objects
+// Object 01
 const vtrident = {
   name: "Voron Trident",
   mainColor: "Green",
@@ -20,4 +22,20 @@ const vtrident = {
   },
 };
 
-console.log(vtrident.dimSize.zaxis);
+console.log(vtrident);
+
+// Object 02
+
+const pencilwallet = {
+  name: "Pencil Wallet",
+  color: "Pink",
+  material: "tissue",
+  size: 25,
+  materials: {
+    mat1: "rubber",
+    mat2: "pencils",
+    mat3: "pen",
+  },
+};
+
+console.log(pencilwallet);
